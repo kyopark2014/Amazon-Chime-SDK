@@ -48,18 +48,20 @@ Data message는 audio/video가 시작된 후에 데이터 채널을 이용하여
 
 ## Pricing
 
-- Connection to Amazon Chime SDK WebRTC media session: $0.0017 (Rate Per minute (each attendee)
+### Connection to Amazon Chime SDK WebRTC media session: $0.0017 (Rate Per minute (each attendee)
  연결 되면 과금됨 (screen share, screen view, two-way audio, one-way audio, two-way video, or one-way video)
 
-- Live connector to send video to third-party streaming platform
+### Live connector to send video to third-party streaming platform
 1 HD video stream x 60 minutes x $0.09 per stream-minute = $5.4 per session
 
-- Messaging
+### Messaging
 Messaging is pay-per-use with rates for sending messages, message delivery, and message storage. The Amazon Chime SDK only charges you for what you use, allowing you to scale as needed. 
 
 ![image](https://user-images.githubusercontent.com/52392004/218378732-e7162d78-6d0b-4da5-b046-f1f3f4b020e5.png)
 
 
+- 1MB를 2KB 단위로 잘라서 보내는 경우: 512번 전송이 되어야 함
+- 100명과 대화중 전송: 512 x 100 x 0.0017 = $35.84
 
 
 
