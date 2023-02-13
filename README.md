@@ -61,7 +61,7 @@ Messaging is pay-per-use with rates for sending messages, message delivery, and 
 
 
 - 1MB를 2KB 단위로 잘라서 보내는 경우: 512번 전송이 되어야 함
-- 100명과 대화중 전송: 512 x 100 x 0.0017 = $35.84
+- 100명과 대화중 1MB파일 1개 전송: 512 x 100 x 0.0017 = $35.84
 
 
 
