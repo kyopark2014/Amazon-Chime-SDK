@@ -46,6 +46,22 @@ Data message는 audio/video가 시작된 후에 데이터 채널을 이용하여
 
 
 
+## Pricing
+
+- Connection to Amazon Chime SDK WebRTC media session: $0.0017 (Rate Per minute (each attendee)
+ 연결 되면 과금됨 (screen share, screen view, two-way audio, one-way audio, two-way video, or one-way video)
+
+- Live connector to send video to third-party streaming platform
+1 HD video stream x 60 minutes x $0.09 per stream-minute = $5.4 per session
+
+- Messaging
+Messaging is pay-per-use with rates for sending messages, message delivery, and message storage. The Amazon Chime SDK only charges you for what you use, allowing you to scale as needed. 
+
+![image](https://user-images.githubusercontent.com/52392004/218378732-e7162d78-6d0b-4da5-b046-f1f3f4b020e5.png)
+
+
+
+
 
 [Refeerence]
 
@@ -54,3 +70,6 @@ Data message는 audio/video가 시작된 후에 데이터 채널을 이용하여
 [Amazon Chime SDK를 활용한 영상면접 서비스 개발](https://saramin.github.io/2021-03-09-amazon-chime-sdk-video-interview/)
 
 [realtimeSendDataMessage](https://aws.github.io/amazon-chime-sdk-android/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/realtime-send-data-message.html)
+
+[Amazon Chime SDK Whiteboard with Data Messages for Real-time Signaling](https://dannadori.medium.com/amazon-chime-sdk-whiteboard-with-data-messages-for-real-time-signaling-c0740575a6c0)
+
