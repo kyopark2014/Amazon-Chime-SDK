@@ -1,5 +1,15 @@
 # AWS Chime SDK
 
+### Audio
+
+up to a maximum of 48kHz.
+
+### Video: 
+
+- JavaScript는 1280x720 at 30 frames per second
+- iOS, Android, Windows: 1280x720 and 15 frames per second
+
+
 
 [Refeerence]
 
