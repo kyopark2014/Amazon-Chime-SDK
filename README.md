@@ -1,5 +1,14 @@
 # AWS Chime SDK
 
+
+
+## Specification
+
+### Meetings and attendees
+
+Client는 secure WebSockets과 Datagram Transport Layer Security (DTLS)을 사용합니다.
+
+
 ### Audio
 
 up to a maximum of 48kHz.
@@ -9,6 +18,17 @@ up to a maximum of 48kHz.
 - JavaScript는 1280x720 at 30 frames per second
 - iOS, Android, Windows: 1280x720 and 15 frames per second
 
+### Data messages
+
+미팅 참여자끼리 2KB까지 실시간으로 메시지 전송이 가능합니다.
+
+### Content sharing
+
+미리 레코딩된 audio/video 컨텐츠를 비디오는 1280x720 at 15 frames per second, 오디오는 48kHz at 64kbps를 공유 할 수 있습니다.
+
+## Amazon Chime SDK service quotas
+
+![image](https://user-images.githubusercontent.com/52392004/218374065-b3f143c5-4cf0-4b93-acb1-4ba39db4cfbf.png)
 
 
 [Refeerence]
