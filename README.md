@@ -31,8 +31,26 @@ up to a maximum of 48kHz.
 ![image](https://user-images.githubusercontent.com/52392004/218374065-b3f143c5-4cf0-4b93-acb1-4ba39db4cfbf.png)
 
 
+
+## realtimeSendDataMessage
+
+realtimeSendDataMessage(topic: String, data: Any, lifetimeMs: Int): Unit
+
+Data message는 audio/video가 시작된 후에 데이터 채널을 이용하여 topic과 함께 전송할 수 있습니다. 서버쪽에서 최대 5분간 LifetimeMs로 저장됩니다.  
+
+- topic - : String - topic the message is sent to
+
+- data - : Any - data payload, it can be ByteArray, String or other serializable object, which will be convert to ByteArray
+
+- lifetimeMs - : Int - the milliseconds of lifetime that is available to late subscribers, default as 0
+
+
+
+
 [Refeerence]
 
 [Using the Amazon Chime SDK](https://docs.aws.amazon.com/chime-sdk/latest/dg/meetings-sdk.html)
 
 [Amazon Chime SDK를 활용한 영상면접 서비스 개발](https://saramin.github.io/2021-03-09-amazon-chime-sdk-video-interview/)
+
+[realtimeSendDataMessage](https://aws.github.io/amazon-chime-sdk-android/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/realtime-send-data-message.html)
