@@ -1,4 +1,4 @@
-# AWS Chime SDK
+# Amazon Chime SDK
 
 
 
